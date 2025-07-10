@@ -1,16 +1,60 @@
-# com_newsapp
+# Flutter Weather App
 
-A new Flutter project.
+A Flutter app that displays real-time weather data for cities using the OpenWeatherMap API. Features include search, categories, favorites, sorting, and dark mode, all managed with Provider state management.
+
+## Features
+
+Current weather: temperature, description, humidity, wind speed
+
+Search cities globally
+
+City categories (e.g., Asia, Europe, Tropical)
+
+Favorite/unfavorite cities
+
+Sort cities by temperature
+
+Dark mode toggle
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repo:
 
-A few resources to get you started if this is your first Flutter project:
+git clone https://github.com/yourusername/flutter-weather-app.git
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+cd flutter-weather-app
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Install dependencies:
+
+flutter pub get
+
+3. Add your OpenWeatherMap API key in services/weather_api_service.dart.
+
+4. Run the app:
+
+flutter run
+
+## Project Structure
+
+main.dart: App entry point with providers
+
+models/: Data models
+
+providers/: State management
+
+screens/: UI screens
+
+services/: API calls
+
+widgets/: Reusable components
+
+## Dependencies
+
+flutter
+
+provider
+
+http
+
+
+
